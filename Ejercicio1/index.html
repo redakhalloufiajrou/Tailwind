@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/output.css">
 </head>
-<body>
-    <header id="header">
-        <div class="logo">
-            <p>Café Aroma</p>
-        </div>
 
-        <nav class="menu">
-            <a href="">Inicio</a>
-            <a href="">Carta</a>
-            <a href="">Contacto</a>
+<body>
+    <header>
+        <nav class="flex items-center justify-between gap-4 rounded-lg bg-white p-4">
+            <a href="#" class="font-bold text-blue-600">Café Aroma</a>
+            <ul class="flex gap-6 text-sm">
+                <li>Inicio</li>
+                <li>Carta</li>
+                <li>Contacto</li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>El mejor café de tu barrio</h1>
-            <p>Recién tostado cada mañana, con mucho cariño.</p>
-            <a href="">Ver la carta</a>
+        <section class=" bg-blue-200 p-25 justify-center text-center">
+            <h1 class="font-bold text-blue-600 text-4xl pb-2">El mejor café de tu barrio</h1>
+            <p class="text-[grey] pb-8">Recién tostado cada mañana, con mucho cariño.</p>
+            <a href="" class="bg-blue-600 text-white p-2  rounded-2xl">Ver la carta</a>
         </section>
         <section>
-            <h2>Nuestros cafés</h2>
-            <figure>
-                <img src="img/espresso.png" alt="">
-                <h3>Espresso</h3>
-                <p>Intenso y con mucho cuerpo</p>
-                <p>1,50€</p>
-            </figure>
-            <figure>
-                <img src="img/capuchino.png" alt="">
-                <h3>Capuchino</h3>
-                <p>Suave, con espuma de leche</p>
-                <p>2,20€</p>
-            </figure>
-            <figure>
-                <img src="img/cafe-con-hielo.png" alt="">
-                <h3>Café con hielo</h3>
-                <p>Perfecto para el verano</p>
-                <p>2,00€</p>
-            </figure>
+            <h2 class="p-15 justify-center text-center font-bold text-3xl">Nuestros cafés</h2>
+            <div class="flex justify-around">
+                <figure">
+                    <img src="img/espresso.png" alt="">
+                    <h3>Espresso</h3>
+                    <p>Intenso y con mucho cuerpo</p>
+                    <p>1,50€</p>
+                    </figure>
+                    <figure>
+                        <img src="img/capuchino.png" alt="">
+                        <h3>Capuchino</h3>
+                        <p>Suave, con espuma de leche</p>
+                        <p>2,20€</p>
+                    </figure>
+                    <figure>
+                        <img src="img/cafe-con-hielo.png" alt="">
+                        <h3>Café con hielo</h3>
+                        <p>Perfecto para el verano</p>
+                        <p>2,00€</p>
+                    </figure>
+            </div>
         </section>
         <section>
             <div>
@@ -51,9 +54,28 @@
             </div>
             <div>
                 <h3>Sobre nosotros</h3>
-                <p>Somos una cafeteria familiar abierta desde 2010. Tostamos nuestro propio café y preparamos cada taza con calma</p>
+                <p>Somos una cafeteria familiar abierta desde 2010. Tostamos nuestro propio café y preparamos cada taza
+                    con calma</p>
+                <ul>
+                    <li>Café de comercio jussto</li>
+                    <li>Leche vegetal sin coste extra</li>
+                    <li>Wifi gratis</li>
+                </ul>
+                <p>Abierto de lunes a sábado, de 8:00 a 20:00</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Ru primer café es gratis</h3>
+                <p>Ven a visitarnos y enseña este mensaje.</p>
+                <a href="">Cómo llegar</a>
             </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; Café Aroma - Calle Mayor, 10</p>
+    </footer>
+
 </body>
+
 </html>
