@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+
+<body>
+    <header class="flex items-center justify-between p-5 m-2 bg-white shadow-sm">
+        <div>
+            <a href="#" class="flex items-center">
+                <img src="assets-png/logo-modo-claro.png" alt="Logo" class="h-7 w-auto">
+            </a>
+        </div>
+
+        <div class="flex items-center space-x-8">
+            <nav class="flex items-center space-x-8">
+                <a href="#"
+                    class="text-sm font-medium text-gray-500 hover:text-black focus:outline-none focus:underline transition">Funciones</a>
+                <a href="#"
+                    class="text-sm font-medium text-gray-500 hover:text-black focus:outline-none focus:underline transition">Precios</a>
+                <a href="#"
+                    class="text-sm font-medium text-gray-500 hover:text-black focus:outline-none focus:underline transition">Empezar</a>
+            </nav>
+
+            <a href="#"
+                class="bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium px-6 py-2.5 rounded-full shadow-sm transition-colors">
+                Prueba Gratis
+            </a>
+        </div>
+
+        <div>
+            <a href="#" class="flex items-center">
+                <img src="assets-png/icono-luna.png" alt="Modo oscuro" class="h-7 w-auto">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="flex items-center justify-around pt-28 m-2">
+            <div>
+                <h1 class="text-black text-7xl max-w-2xl font-bold pb-6">Tu equipo, por fin en la misma página</h1>
+                <p class="max-w-md text-gray-700 pb-8">Nimbo reúne tareas, fechas y responsables en tableros claros.
+                    Menos reuniones, más trabajo hecho.</p>
+                <div class="flex items-center space-x-6 pb-5">
+                    <a href="#"
+                        class="bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium px-6 py-3 rounded-2xl shadow-lg shadow-purple-500/50 transition-all">
+                        Empieza gratis
+                    </a>
+                    <a href="#"
+                        class="bg-white hover:bg-gray-50 border border-gray-300 text-black text-sm font-medium px-6 py-3 rounded-2xl shadow-sm transition-colors">
+                        Ver funciones
+                    </a>
+                </div>
+                <p class="text-sm text-gray-400">Sin tarjeta de crédito. Cancela cuando quieras.</p>
+            </div>
+            <div>
+                <img src="assets-png/hero-modo-claro.png" alt="Vista previa de Nimbo"
+                    class="h-[480px] w-auto rounded-2xl shadow-2xl shadow-purple-500/30">
+            </div>
+        </section>
+        <section class="py-16 sm:py-20 bg-white border-t border-slate-100 px-30">
+            <div>
+                <h2>Todo lo que tu equipo necesita</h2>
+                <p>Seis herramientas pensadas para que nadie pregunte "¿quien se encarga de esto?".</p>
+            </div>
+            <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-tableros.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Tableros</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Arrastra tareas entre "Por hacer", "En curso" y "Hecho".
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-tareas.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Fechas Límite</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Cada tarea tiene su fecha y se ordena sola en el calendario.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-equipos.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Equipos</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Asigna responsables y comparte tableros con quien quieras.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-avisos.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Avisos</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Recibe un aviso solo cuando algo te toca a ti.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-automatizar.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Automatizaciones</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Mueve tareas y avisa al equipo sin hacer nada a mano.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-300 transition">
+                        <div>
+                            <div class="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
+                                <img src="assets-png/icono-informes.png" alt="" class="w-6 h-6">
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-900">Informes</h3>
+                            <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                                Mira cuánto se ha hecho esta semana y qué se retrasa.
+                            </p>
+                        </div>
+                    </article>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
